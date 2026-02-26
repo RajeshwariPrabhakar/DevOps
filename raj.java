@@ -1,4 +1,4 @@
-public class EvenOrOdd {
+public class raj {
     public static void main(String[] args) {
         int number = 14;
 
