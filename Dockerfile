@@ -4,7 +4,7 @@ FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 
 # Copy the JAR file (replace 'my-app.jar' with your file name)
-COPY . .
+COPY . /app
 
 # Expose the application port
 RUN javac raj.java
