@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 
 # Expose the application port
-RUN javac app.java
+RUN javac raj.java
 
 # Run the application
 CMD ["java", "raj.java"]
